@@ -39,6 +39,7 @@
    - [Big Emoji v1](Big%20Emoji/Big_Emoji_v1.json)
    - [Redesig Player Beta v1](Redesign%20Player\Redesign_Player_Beta_v1.json)
    - [Big Emoji + Redesig Player Beta - v1](Big_Emoje__Redesign_Player_Beta__v1.json)
+  ![Screen dowloand preset](why_dowloand_preset.png)
 4. Загружаем его в UJ&C по [инструкции](<https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=0%3A1&type=design&node-id=1-346&viewport=459%2C445%2C0.22&scaling=min-zoom&mode=design>)
 
 ## Есть идея или ошибка?
