@@ -1,6 +1,6 @@
 # VK Next Addition
 
-Дополнение для расширения VK Next. В планах создание версий без установки VK Next.
+Дополнение для расширения VK Next. В планах создание версий без необходимой установки VK Next.
 
 ## Планы дополнения
 
@@ -14,7 +14,7 @@
 
 ### В работе
 
-- [x] Редизайн плеера
+- [x] Редизайн плеера (рабоает при включеннии `VK Next > Музыка > Другой вид плеера`)
       ![Cover big emoji](Redesign%20Player/cover_redesign_player.jpg)
   - [x] Реализовать [дизайн (Figma)](<https://www.figma.com/file/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?type=design&node-id=0-1&mode=design>)
   - [ ] Исправить баги
