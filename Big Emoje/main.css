@@ -1,0 +1,58 @@
+/* ___ EMOJI ____ */
+
+/* FOR EDIT STYLES WITH DEVTOOLS */
+/*.StickerPickerViewer {*/
+/*	opacity: 1;*/
+/*}*/
+
+.StickerPickerViewer .vkuiSubhead--w-3 {
+   font-weight: 500;
+}
+
+.EmojiKeyboard-module__item--ioycj {
+   --emoji-size: 28px;
+   --emoji-padding: 16px;
+   --emoji-columns: 8;
+}
+
+.EmojiKeyboardRow-module__row--p7nYm {
+   margin-bottom: 8px;
+   gap: 8px 10px ;
+   justify-content: center;
+   display: flex ;
+   text-align: center;
+   flex-wrap: wrap;
+}
+
+.EmojiItem-module__item--yFc2D {
+   width: 32px;
+   height: 32px;
+}
+
+.StickerPickerViewer i {
+  background-size: 28px;
+}
+
+.EmojiKeyboardRow-module__row--p7nYm {
+   width: 100%;
+   padding-top: 0;
+}
+
+.Tabbar-module__tabbar--px5Db div::after {
+   content: 'Описание';
+   margin-left: 8px;
+   margin-top: 3px;
+   font-weight: 500;
+}
+
+.Tabbar-module__tabbar--px5Db div:nth-child(1)::after {
+   content: 'Эмодзи';
+}
+
+.Tabbar-module__tabbar--px5Db div:nth-child(2)::after {
+   content: 'Стикеры';
+}
+
+.Tabbar-module__tabbar--px5Db div:nth-child(3)::after {
+   content: 'Магазин';
+}

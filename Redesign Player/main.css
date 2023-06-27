@@ -1,0 +1,657 @@
+/* ___ Player ___ */
+
+/* Ad */
+#page_layout .CatalogSection:not(.CatalogSection--divided) {
+	display: none;
+}
+
+/* animation for shadow */
+@keyframes sizeBig {
+	from {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+	20% {
+		transform: scale(1.8);
+		filter: blur(9px);
+		border-radius: 30px;
+		opacity: 0.7;
+	}
+	40% {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+	60% {
+		transform: scale(1.8) translateX(-8px);
+		filter: blur(9px);
+		border-radius: 30px;
+		opacity: 0.7;
+	}
+	to {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+}
+
+@keyframes sizeBig_CoverHeader {
+	from {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+	20% {
+		transform: scale(1.8) translate(2px);
+		filter: blur(9px);
+		border-radius: 30px;
+		opacity: 0.7;
+	}
+	40% {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+	60% {
+		transform: scale(1.8) translate(2px);
+		filter: blur(9px);
+		border-radius: 30px;
+		opacity: 0.7;
+	}
+	to {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+}
+
+@keyframes sizeLite {
+	from {
+		transform: scale(0.7);
+	}
+	50% {
+		transform: scale(1.1);
+		z-index: 10;
+	}
+	to {
+		transform: scale(0.7);
+	}
+}
+
+/* mini cover in playlist */
+.audio_w_covers .audio_row .audio_row__cover,
+.audio_w_covers .audio_row .audio_row__cover_back {
+	border-radius: 6px;
+}
+
+/*  */
+
+[dir]
+	body
+	.audio_page_layout2
+	.audio_page_player2
+	.audio_page_player__cover:not([style*='background-image'])::before {
+	transition: all 1s;
+	animation: rotate 10s ease infinite;
+}
+
+
+html body .audio_page_layout2 .audio_page_player_wrap,
+html body .audio_page_player2 {
+	height: 120px;
+	padding-bottom: 16px;
+	position: relative;
+	z-index: 10;
+}
+
+#page_layout .audio_page_layout2 .audio_page_player_wrap {
+	background: transparent;
+	box-shadow: none;
+}
+
+.audio_page_player2 .audio_page_player__cover {
+	background-color: var(--vkui--color_background_content);
+}
+
+/* player fixed */
+.audio_page_player2.audio_page_player_fixed {
+	top: auto;
+	bottom: 16px;
+	position: fixed;
+	z-index: 102;
+	margin: 0;
+	border-radius: 0;
+	-webkit-transition: -webkit-transform 250ms ease;
+	transition: -webkit-transform 250ms ease;
+	transition: transform 250ms ease;
+	transition: transform 250ms ease, -webkit-transform 250ms ease;
+	-webkit-box-shadow: 0 1px 0 0 var(--black_alpha12);
+	box-shadow: 0 1px 0 0 var(--black_alpha12);
+	-webkit-transform: translate(0, 10px);
+	transform: translate(0, -7px);
+	background: transparent;
+	padding-bottom: 0px;
+}
+
+.audio_page_player2.audio_page_player_fixed:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 32px;
+	left: 0px;
+	height: 200px;
+	width: 100%;
+	background-color: var(--vkui--color_background);
+	z-index: -1;
+	visibility: visible;
+	filter: blur(20px);
+	transform: scale(1.55) rotate(2deg);
+	/*transition: all .5s;*/
+}
+
+.audio_section {
+	padding-bottom: 125px;
+}
+
+.audio_page_player2.audio_page_player_fixed .VKNextU-cover-shadow {
+	top: 8px;
+}
+
+.audio_page_player2.audio_page_player_fixed
+	.audio_page_player__cover._audio_page_player__cover:hover {
+	transform: translate(11px, -8px) scale(1.5);
+	border-radius: 3px;
+	/* border: 1px solid #f1f1f126; */
+	transition: all 0.7s;
+	z-index: 999999;
+}
+
+/*.audio_page_player2.audio_page_player_fixed .audio_page_player_play {*/
+/*	transform: translateX(124px);*/
+/*}*/
+
+.audio_page_player2.audio_page_player_fixed .audio_page_player_play,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_prev,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_next {
+	transform: translateX(58px);
+	transform: translateX(58px);
+}
+
+.audio_page_player2.audio_page_player_fixed .audio_page_player_play,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_prev,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_next {
+	bottom: -2px;
+	/* +top */
+}
+
+.audio_page_player2.audio_page_player_fixed .audio_page_player_repeat,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_shuffle,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_recoms,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_share {
+	top: 16.5px;
+	/* -top */
+}
+
+.audio_page_player2.audio_page_player_fixed .audio_page_player_volume_wrap {
+	bottom: 8px;
+}
+
+.audio_page_player2.audio_page_player_fixed .audio_page_player_add,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_btn:nth-child(1),
+.audio_page_player2.audio_page_player_fixed .audio_page_player_btn_lyrics,
+.audio_page_player2.audio_page_player_fixed .audio_page_player_status {
+	position: absolute;
+	left: 50%;
+	top: 16px;
+	/*bottom: 8px;*/
+	z-index: 99999;
+	width: 24px;
+	height: 24px;
+}
+
+/* btn add */
+.audio_page_player2.audio_page_player_fixed .audio_page_player_add {
+	display: inline-block;
+	top: 32px;
+	left: 231px;
+	/*bottom: 24px;*/
+}
+
+/* status */
+.audio_page_player2.audio_page_player_fixed .audio_page_player_status {
+	left: 134px;
+}
+
+.audio_page_player2.audio_page_player_fixed .audio_page_player_status::after,
+.audio_page_player2.audio_page_player_fixed
+	.audio_page_player_status.audio_page_player_btn_enabled::after {
+	content: '';
+}
+
+/* btn download */
+.audio_page_player2.audio_page_player_fixed
+	.audio_page_player_btn:nth-child(1) {
+	left: 199px;
+}
+
+/* lyrics */
+.audio_page_player2.audio_page_player_fixed .audio_page_player_btn_lyrics {
+	left: 135px;
+	left: 167px;
+}
+
+.popup_box_container {
+	margin-top: 80px;
+}
+
+/*#page_layout .audio_page_player_wrap.audio_page_player_fixed {*/
+/*	position: fixed;*/
+/*	z-index: 1000;*/
+/*	bottom: 0;*/
+/*	left: 0;*/
+/*	top: none;*/
+/*    border-bottom: 1px solid var(--separator_common);;*/
+/*    border-left: 1px solid var(--separator_common);;*/
+/*    border-right: 1px solid var(--separator_common);;*/
+/*    border-radius: 0 0 16px 16px;*/
+/*    z-index: 12;*/
+/*}*/
+
+/* cover track */
+.audio_page_player2 ._audio_page_player__cover {
+	position: absolute;
+	z-index: 15;
+	height: 104px;
+	width: 104px;
+	top: 16px;
+	left: 16px;
+	margin: 0;
+	border-radius: 10px;
+	transition: all 0.7s;
+	border-radius: 8px;
+}
+
+.audio_page_player__cover._audio_page_player__cover:hover {
+	transform: translateX(8px) scale(1.5);
+	border-radius: 2px;
+	/* border: 1px solid #f1f1f126; */
+	transition: all 0.7s;
+	z-index: 999999;
+}
+
+/* titles track */
+.audio_page_player2 .audio_page_player_track_wrap {
+	overflow: hidden;
+	padding: 26px 20px 0 124px;
+}
+
+.audio_page_player2 .audio_page_player_title_link:hover,
+.audio_page_player2 .audio_page_player_title_performer:hover {
+	position: relative;
+	z-index: 15;
+}
+
+.audio_page_player2 .audio_page_player_title_song {
+	font-size: 18px;
+	color: var(--vkui--color_text_primary);
+	height: 20px;
+	padding: 2px 0;
+}
+
+.audio_page_player2 .audio_page_player_title_performer {
+	font-size: 13px;
+	margin-top: -2px;
+}
+
+/* el-s audio track */
+.audio_page_player2 .audio_page_player_track_slider_wrapper {
+	padding: 2px 85px 0 124px;
+}
+
+.audio_page_player2
+	.audio_page_player_track_slider.slider.slider_size_1
+	.slider_slide,
+.audio_page_player2
+	.audio_page_player_volume_slider.slider.slider_size_1
+	.slider_slide {
+	height: 4px;
+	border-radius: 100px;
+	background: #bfbfbf70;
+}
+
+.audio_page_player2
+	.audio_page_player_track_slider.slider.slider_size_1
+	.slider_back,
+.audio_page_player2
+	.audio_page_player_volume_slider.slider.slider_size_1
+	.slider_back {
+	border-radius: 100px;
+}
+
+.audio_page_player2
+	.audio_page_player_track_slider.slider.slider_size_1
+	.slider_amount,
+.audio_page_player2
+	.audio_page_player_volume_slider.slider.slider_size_1
+	.slider_amount {
+	height: 4px;
+	border-radius: 100px;
+}
+
+.audio_page_player2
+	.audio_page_player_track_slider.slider.slider_size_1
+	.slider_handler,
+.audio_page_player2
+	.audio_page_player_volume_slider.slider.slider_size_1
+	.slider_handler {
+	height: 8px;
+	width: 8px;
+	margin-left: -4px;
+	top: -2px;
+}
+
+/* timer */
+.audio_page_player2 .audio_page_player_duration {
+	position: absolute;
+	top: 64px;
+	right: 18px;
+	padding: 0 0 0 12px;
+	width: 50px;
+}
+
+/* all btns */
+.audio_page_player2 .audio_page_player_btn {
+	/*border: 1px solid red;*/
+	padding: 16px 0;
+	position: absolute;
+	right: 50%;
+	top: -79px;
+	width: 24px;
+	height: 24px;
+}
+
+/* btn add */
+.audio_page_player2 .audio_page_player_add {
+	display: inline-block;
+	position: absolute;
+	right: 35px;
+	z-index: 9;
+	padding: 0;
+	top: -63px;
+}
+
+/* btn download */
+.audio_page_player2 .audio_page_player_btn:nth-child(1) {
+	position: absolute;
+	right: 67px;
+}
+
+/* lyrics */
+.audio_page_player2 .audio_page_player_btn_lyrics {
+	position: absolute;
+	right: 131px;
+
+	right: 99px;
+}
+
+.audio_page_player2 .popup_box_container {
+	margin-top: 80px;
+}
+
+/* status */
+.audio_page_player2 .audio_page_player_status {
+	position: absolute;
+	right: 99px;
+
+	top: 0.5px;
+	right: auto;
+	left: 231px;
+	left: 134px;
+}
+
+.audio_page_player2 .audio_page_player_status::after {
+	content: 'Не транслируется';
+	display: block;
+	position: absolute;
+	width: 180px;
+	height: 13px;
+	top: 28px;
+	left: 34px;
+	font-weight: 400;
+}
+
+.audio_page_player2
+	.audio_page_player_status.audio_page_player_btn_enabled::after {
+	color: var(--accent);
+	content: 'Транслируется';
+}
+
+/* bottom btns */
+/* btn play */
+.audio_page_player2 .audio_page_player_play {
+	cursor: pointer;
+	position: absolute;
+	left: 50%;
+	margin-left: -14px;
+	bottom: 12px;
+	padding: 0;
+	z-index: 100;
+	height: 28px;
+	width: 28px;
+
+	transform: translateX(58px);
+
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+}
+
+/*btns prev & next */
+.audio_page_player2 .audio_page_player_prev,
+.audio_page_player2 .audio_page_player_next {
+	color: var(--button_primary_background);
+	position: absolute;
+	bottom: 12px;
+	left: 50%;
+	z-index: 101;
+	padding: 0;
+	opacity: 0.6;
+	height: 28px;
+	width: 28px;
+
+	transform: translateX(58px);
+
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+}
+
+.audio_page_player2 .audio_page_player_prev .audio_page_player_icon svg,
+.audio_page_player2 .audio_page_player_next .audio_page_player_icon svg {
+	height: 28px;
+	width: 28px;
+}
+
+.audio_page_player2 .audio_page_player_prev {
+	margin-left: -47px;
+	/* -14 -32 */
+}
+
+.audio_page_player2 .audio_page_player_next {
+	margin-left: 19px;
+	/* -14 +32 */
+}
+
+/* repeat */
+.audio_page_player2 .audio_page_player_repeat {
+	top: 2px;
+	position: absolute;
+	left: 376px;
+	width: 24px;
+	height: 24px;
+	transform: translateX(58px);
+}
+
+/* status */
+.audio_page_player2 .audio_page_player_shuffle {
+	top: 2px;
+	position: absolute;
+	left: 343px;
+	transform: translateX(58px);
+}
+
+/* recoms */
+.audio_page_player2 .audio_page_player_recoms {
+	top: 2px;
+	left: 509.5px;
+	width: 24px;
+	height: 24px;
+	transform: translateX(58px);
+}
+
+/* share */
+.audio_page_player2 .audio_page_player_share {
+	top: 2px;
+	left: 542px;
+	transform: translateX(58px);
+}
+
+/* volue */
+.audio_page_player2 .audio_page_player_volume_wrap {
+	width: 100px;
+	bottom: 25px;
+}
+
+html body .HeaderNav__item .audio_page_layout2 .audio_page_player_wrap,
+html body .HeaderNav__item .audio_page_player2 {
+	padding-bottom: 2px;
+}
+
+.HeaderNav__item .audio_page_player2 .audio_page_player__cover {
+	background-color: var(--placeholder_icon_background);
+}
+
+.HeaderNav__item .audio_section {
+	padding-bottom: 0;
+}
+
+/* cover track */
+.HeaderNav__item
+	.audio_page_player2
+	.audio_page_player__cover._audio_page_player__cover {
+	height: 88px;
+	width: 88px;
+}
+
+.HeaderNav__item .audio_page_player__cover._audio_page_player__cover:hover {
+	transform: translate(0.3px, 1px) scale(1.3);
+	transition: all 0.7s;
+}
+
+/* el-s audio track */
+.HeaderNav__item .audio_page_player2 .audio_page_player_track_slider_wrapper {
+	padding: 0 85px 0 110px;
+}
+
+/* titles track */
+.HeaderNav__item .audio_page_player2 .audio_page_player_track_wrap {
+	overflow: hidden;
+	padding: 24px 20px 0 110px;
+}
+
+.HeaderNav__item .audio_page_player2 .audio_page_player_title_song {
+	font-size: 16px;
+	color: var(--vkui--color_text_primary);
+}
+
+.HeaderNav__item .audio_page_player2 .audio_page_player_title_performer {
+	font-size: 13px;
+	margin-top: -2px;
+	transform: translateY(-2px);
+}
+
+.HeaderNav__item .audio_page_player2 .audio_page_player_duration {
+	top: 60px;
+}
+
+/* all btns */
+.HeaderNav__item .audio_page_player2 .audio_page_player_btn {
+	top: -66px;
+}
+
+.HeaderNav__item .audio_page_player2 .audio_page_player_status {
+	top: 0.5px;
+	right: auto;
+
+	top: 4px;
+	right: auto;
+	left: 119px;
+}
+
+.HeaderNav__item .audio_page_player2 .audio_page_player_status::after {
+	content: 'Не транслиру...';
+}
+
+.HeaderNav__item
+	.audio_page_player2
+	.audio_page_player_status.audio_page_player_btn_enabled::after {
+	content: 'Транслируется';
+}
+
+/* btn add */
+.HeaderNav__item .audio_page_player2 .audio_page_player_add {
+	top: -50px;
+}
+
+/* btns player */
+.HeaderNav__item .audio_page_player2 .audio_page_player_play,
+.HeaderNav__item .audio_page_player2 .audio_page_player_prev,
+.HeaderNav__item .audio_page_player2 .audio_page_player_next {
+	bottom: 11px;
+}
+
+/* repeat */
+.HeaderNav__item .audio_page_player2 .audio_page_player_repeat {
+	top: 4px;
+	position: absolute;
+	left: 250px;
+	width: 24px;
+	height: 24px;
+}
+
+/* status */
+.HeaderNav__item .audio_page_player2 .audio_page_player_shuffle {
+	top: 4px;
+	position: absolute;
+	left: 218px;
+}
+
+/* recoms */
+.HeaderNav__item .audio_page_player2 .audio_page_player_recoms {
+	top: 4px;
+	left: 384px;
+	width: 24px;
+	height: 24px;
+}
+
+/* share */
+.HeaderNav__item .audio_page_player2 .audio_page_player_share {
+	top: 4px;
+	left: 416px;
+}
+
+/* volue */
+.HeaderNav__item .audio_page_player2 .audio_page_player_volume_wrap {
+	width: 80px;
+	bottom: 20.7px;
+}
+
+/* audio */
+.HeaderNav__item
+	.audio_page_player2
+	.audio_page_player_track_slider.slider.slider_size_1
+	.slider_slide,
+.HeaderNav__item
+	.audio_page_player2
+	.audio_page_player_volume_slider.slider.slider_size_1
+	.slider_slide {
+	height: 4px;
+	border-radius: 100px;
+	background: var(
+		--search_bar_field_background,
+		var(--vkui--color_search_field_background)
+	);
+}
