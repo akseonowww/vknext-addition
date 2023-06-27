@@ -46,7 +46,7 @@
 }
 
 .Tabbar-module__tabbar--px5Db div:nth-child(1)::after {
-   content: 'Эмодзи';
+content: 'Эмодзи';
 }
 
 .Tabbar-module__tabbar--px5Db div:nth-child(2)::after {
