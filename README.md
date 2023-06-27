@@ -29,8 +29,8 @@
 Внимание! Разработчик не отвечает за вашу безопастность. Далее действия вы совершаете на свой страх и риск. 
 
 1. Устанавливаем [VK Next](https://vknext.net/)
-2. Устанавливаем [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld) (дылее UJ&C)
-3. Скачиваем пресет: [Big Emoji]('./Big%20Emoje/main.css')
+2. Устанавливаем [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld) (далее UJ&C)
+3. Скачиваем пресет: [Big Emoji]('./Big%20Emoje/main.css'), [New Player]()
 4. Загружаем его в UJ&C по [инструкции]()
 
 ## Есть идея или ошибка?
