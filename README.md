@@ -31,7 +31,7 @@
 
 1. Устанавливаем [VK Next](https://vknext.net/)
 2. Устанавливаем [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld) (далее UJ&C)
-3. Скачиваем пресет: [Big Emoji](Big%20Emoje/main.css)
+3. Скачиваем пресет: [Big Emoji](Big Emoje/main.css)
 4. Загружаем его в UJ&C по [инструкции](https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=0%3A1&type=design&node-id=1-346&viewport=459%2C445%2C0.22&scaling=min-zoom&mode=design)
 
 ## Есть идея или ошибка?
