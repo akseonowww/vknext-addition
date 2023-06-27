@@ -8,7 +8,7 @@
 - [x] Большие эмодзи
   ![Cover big emoji](Big%20Emoji/cover_big_emoji.jpg)
   - [x] [Инструкция по установке (Figma)]([/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?type=design&node-id=102-710&mode=design](https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=102%3A710&type=design&node-id=102-713&viewport=79%2C221%2C0.1&scaling=min-zoom&mode=design))
-  - [ ] Оптимизировать
+  - [x] Оптимизировать (1 заход)
   - [x] Версия без VK Next
 
 ### В работе
@@ -21,6 +21,7 @@
   - [ ] Версия без VK Next
 
 ### В ожидании
+- [ ] Конструктор по объединению пресетов 
 - [ ] Обновление старого интерфеса (модальные окна, выпадающие настройки)
 - [ ] Окно настроек
 - [ ] Тема Telegram Dark/Light   
@@ -30,8 +31,8 @@
 
 1. Устанавливаем [VK Next](https://vknext.net/)
 2. Устанавливаем [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld) (далее UJ&C)
-3. Скачиваем пресет: [Big Emoji]('./Big%20Emoje/main.css'), [New Player]()
-4. Загружаем его в UJ&C по [инструкции]()
+3. Скачиваем пресет: [Big Emoji](Big%20Emoji/main.css)
+4. Загружаем его в UJ&C по [инструкции](https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=0%3A1&type=design&node-id=1-346&viewport=459%2C445%2C0.22&scaling=min-zoom&mode=design)
 
 ## Есть идея или ошибка?
 Пиши на @akseonowww: 
