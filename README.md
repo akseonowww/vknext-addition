@@ -39,11 +39,11 @@
    - [Big Emoji v1](Big%20Emoji/Big_Emoji_v1.json) (VK Next не обязателен)
    - [Redesig Player Beta v1](Redesign%20Player/Redesign_Player_Beta_v1.json)
    - [Big Emoji + Redesig Player Beta - v1](Big_Emoje__Redesign_Player_Beta__v1.json)
-     ![Screen dowloand preset](stap 3.png)
+     ![Screen dowloand preset](stap%203.png)
 4. Заходим в настройки UJ&C
-   ![Screen dowloand preset](stap 4.png)
+   ![Screen dowloand preset](stap%204.png)
 5. Загружаем пресет
-   ![Screen dowloand preset](stap 5.png)
+   ![Screen dowloand preset](stap%205.png)
 
 ## Есть идея или ошибка?
 
