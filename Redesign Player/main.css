@@ -1,7 +1,7 @@
 /* ___ Player ___ */
 
 /* Ad */
-#page_layout .CatalogSection:not(.CatalogSection--divided) {
+#page_layout .audio_page_layout .CatalogSection:not(.CatalogSection--divided) {
 	display: none;
 }
 
