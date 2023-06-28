@@ -35,7 +35,7 @@
 
 1. Устанавливаем [VK Next](https://vknext.net/)
 2. Устанавливаем [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld) (далее UJ&C)
-3. Скачиваем пресет (нужно быть зарегистрированным на github.com):
+3. Скачиваем пресет (нужно быть зарегистрированным на [github.com](https://github.com):
    - [Big Emoji v1](Big%20Emoji/Big_Emoji_v1.json) (VK Next не обязателен)
    - [Redesig Player Beta v1](Redesign%20Player/Redesign_Player_Beta_v1.json)
    - [Big Emoji + Redesig Player Beta - v1](Big_Emoje__Redesign_Player_Beta__v1.json)
