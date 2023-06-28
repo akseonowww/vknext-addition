@@ -8,7 +8,7 @@
 
 - [x] Большие эмодзи
       ![Cover big emoji](Big%20Emoji/cover_big_emoji.jpg)
-  - [x] [Инструкция по установке (Figma)](https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=102%3A710&type=design&node-id=102-713&viewport=79%2C221%2C0.1&scaling=min-zoom&mode=design)
+  - [x] [Инструкция по установке (Figma)](<https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=102%3A710&type=design&node-id=102-713&viewport=79%2C221%2C0.1&scaling=min-zoom&mode=design>)
   - [x] Оптимизировать (1 заход)
   - [x] Версия без VK Next
 
@@ -26,7 +26,7 @@
 
 - [ ] Конструктор по объединению пресетов
 - [ ] Обновление старого интерфеса (модальные окна, выпадающие настройки)
-- [ ] Окно с кастомитизацией пресетов VK Next Addition 
+- [ ] Окно с кастомитизацией пресетов VK Next Addition
 - [ ] Тема Telegram Dark/Light
 
 ## Как воспользоваться?
@@ -39,8 +39,11 @@
    - [Big Emoji v1](Big%20Emoji/Big_Emoji_v1.json) (VK Next не обязателен)
    - [Redesig Player Beta v1](Redesign%20Player/Redesign_Player_Beta_v1.json)
    - [Big Emoji + Redesig Player Beta - v1](Big_Emoje__Redesign_Player_Beta__v1.json)
-  ![Screen dowloand preset](why_dowloand_preset.png)
-4. Загружаем его в UJ&C по [инструкции](https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=102%3A710&type=design&node-id=102-738&viewport=79%2C221%2C0.1&scaling=scale-down&mode=design)
+     ![Screen dowloand preset](stap 3.png)
+4. Заходим в настройки UJ&C
+   ![Screen dowloand preset](stap 4.png)
+5. Загружаем пресет
+   ![Screen dowloand preset](stap 5.png)
 
 ## Есть идея или ошибка?
 
