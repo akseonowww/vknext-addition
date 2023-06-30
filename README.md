@@ -10,7 +10,7 @@
 
 - [x] Большие эмодзи 
 _`Вверсия: 1.0 (лето 2023)`_
-![Cover big emoji](Big%20Emoji/cover_big_emoji.jpg)
+![Cover big emoji](Big Emoji/cover_big_emoji.jpg)
   - [x] [Инструкция по установке (Figma)](<https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=102%3A710&type=design&node-id=102-713&viewport=79%2C221%2C0.1&scaling=min-zoom&mode=design>)
   - [x] Оптимизировать (1 заход)
   - [x] Версия без VK Next
@@ -19,7 +19,7 @@ _`Вверсия: 1.0 (лето 2023)`_
 
 - [x] Редизайн плеера (работает при включеннии `VK Next > Музыка > Другой вид аудиоплеера`)
 _`Вверсия: 1.0 Beta (лето 2023)`_
-![Cover big emoji](Redesign%20Player/versions/v1.0%20Beta/cover_redesign_player.jpg)
+![Cover big emoji](Redesign Player/versions/v1.0 Beta/cover_redesign_player.jpg)
   - [x] Реализовать [дизайн (Figma)](<https://www.figma.com/file/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?type=design&node-id=0-1&mode=design>)
   - [ ] Исправить баги
   - [ ] Оптимизировать
