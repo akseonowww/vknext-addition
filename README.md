@@ -58,5 +58,5 @@ _Многие ошибки решает F5 (3 июля выйдет версия
 
 Пиши на @akseonowww:
 
-- [Телеграм](https://t.me/akseonowww)
+- [телеграм](https://t.me/akseonowww)
 - [вконтакте](https://vk.com/akseonowww)
