@@ -18,8 +18,11 @@ _`Вверсия: 1.0 (лето 2023)`_
 ### В разработке
 
 - [x] Редизайн плеера (работает при включеннии `VK Next > Музыка > Другой вид аудиоплеера`)
+
 _`Вверсия: 1.0 Beta (лето 2023)`_
-_Многие ошибки решает F5 (3 июля выйдет версия 2.0 без багов)_
+
+_Многие ошибки решает F5 (5 июля выйдет версия 2.0 без багов)_
+
 ![Cover big emoji](Redesign_Player/versions/v1.0_beta/cover_redesign_player.jpg)
   - [x] Реализовать [дизайн (Figma)](<https://www.figma.com/file/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?type=design&node-id=0-1&mode=design>)
   - [ ] Исправить баги
