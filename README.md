@@ -41,7 +41,8 @@ _Многие ошибки решает F5_
 - [ ] Тёмная тема Телеграма
 - [ ] Тексты с Genius (для плеера) 
 - [ ] Black List (для плеера)
-- [ ] Режим полного экрана проигрывающего трека 
+- [ ] Режим полного экрана проигрывающего трека
+- [ ] [Твоя идея](#есть-идея-или-ошибка)
 
 ## Как воспользоваться?
 
@@ -49,7 +50,7 @@ _Многие ошибки решает F5_
 
 1. Устанавливаем [VK Next](https://vknext.net/)
 2. Устанавливаем [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld) (далее UJ&C)
-3. Скачиваем пресет (нужно быть зарегистрированным на [github.com](https://github.com)):
+3. Скачиваем пресет:
    - [Big Emoji v2](BigEmoji/BigEmoji_v2.json)
    - [Redesig Player Beta v1](RedesignPlayer/RedesignPlayer_Beta_v1.json)
    - [Big Emoji + Redesig Player Beta - v1](BigEmoje_RedesignPlayer_Beta__v1.json)
