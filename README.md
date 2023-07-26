@@ -53,11 +53,11 @@ _Многие ошибки решает F5_
    - [Big Emoji v2](BigEmoji/BigEmoji_v2.json)
    - [Redesig Player Beta v1](RedesignPlayer/RedesignPlayer_Beta_v1.json)
    - [Big Emoji + Redesig Player Beta - v1](BigEmoje_RedesignPlayer_Beta__v1.json)
-   ![Screen dowloand preset](stap%203.png)
+   ![Screen dowloand preset](stap%203.jpg)
 4. Заходим в настройки UJ&C
-   ![Screen dowloand preset](stap%204.png)
+   ![Screen dowloand preset](stap%204.jpg)
 5. Загружаем пресет
-   ![Screen dowloand preset](stap%205.png)
+   ![Screen dowloand preset](stap%205.jpg)
 
 ## Есть идея или ошибка?
 
