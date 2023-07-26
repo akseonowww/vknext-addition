@@ -8,9 +8,9 @@
 
 ### Готовые
 
-- [x] Большие эмодзи
+- [x] Большие эмодзи (работает при включеннии `VK Next > Внешний вид > Эмодзи > Aplle`)
 
-_`Вверсия: 1.0 (лето 2023)`_
+_`Вверсия: 1.0 (лето 2023)`_ 
 
 ![Cover big emoji](BigEmoji/cover_big_emoji.jpg)
   - [x] [Инструкция по установке (Figma)](<https://www.figma.com/proto/ZYc6N8TKc3xS5Z7on0ehsI/VK-Next-(%D0%B8%D0%B4%D0%B5%D0%B8)?page-id=102%3A710&type=design&node-id=102-713&viewport=79%2C221%2C0.1&scaling=min-zoom&mode=design>)
