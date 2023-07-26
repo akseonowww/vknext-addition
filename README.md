@@ -53,7 +53,7 @@ _Многие ошибки решает F5_
 3. Скачиваем пресет:
    - [Big Emoji v2](BigEmoji/BigEmoji_v2.json)
    - [Redesig Player Beta v1](RedesignPlayer/RedesignPlayer_Beta_v1.json)
-   - [Big Emoji + Redesig Player Beta - v1](BigEmoje_RedesignPlayer_Beta__v1.json)
+   - [Big Emoji v2 + Redesig Player Beta v1](BigEmoje_v2__RedesignPlayer__Beta_v1.json)
    ![Screen dowloand preset](stap%203.jpg)
 4. Заходим в настройки UJ&C
    ![Screen dowloand preset](stap%204.jpg)
